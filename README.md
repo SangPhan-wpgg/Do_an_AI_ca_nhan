@@ -1,9 +1,13 @@
 # Do_an_AI_ca_nhan
 
 Giảng viên hướng dẫn: TS.Phan Thị Huyền Trang
+
 Sinh viên thực hiện: Phan Đình Sáng
+
 Mã số sinh viên: 23110303
+
 Mã lớp học: ARIN330585_04
+
 Học kỳ II năm học 2024-2025
 
 MỤC LỤC
@@ -11,12 +15,12 @@ NỘI DUNG CHÍNH	2
 1. Giới thiệu bài toán	2
 2. Mục tiêu	2
 3. Một số thuật toán sử dụng	2
-3.1. Tìm kiếm không có thông tin	2
-3.2. Tìm kiếm có thông tin	4
-3.3. Thuật toán tìm kiếm cục bộ	6
-3.4. Thuật toán tìm kiếm trong môi trường phức tạp	7
-3.5. Thuật toán tìm kiếm có ràng buộc	8
-3.6. Thuật toán tìm kiếm học tăng cường	9
+  3.1. Tìm kiếm không có thông tin	2
+  3.2. Tìm kiếm có thông tin	4
+  3.3. Thuật toán tìm kiếm cục bộ	6
+  3.4. Thuật toán tìm kiếm trong môi trường phức tạp	7
+  3.5. Thuật toán tìm kiếm có ràng buộc	8
+  3.6. Thuật toán tìm kiếm học tăng cường	9
 4. Kết luận	10
 5. Tài liệu tham khảo	10
 
