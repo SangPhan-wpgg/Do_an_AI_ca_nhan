@@ -4,7 +4,7 @@ from tkinter import messagebox
 import time
 import random
 import math
-from dataStructures import * 
+from Cau_truc import * 
 import os
 
 CHIEU_RONG_CUA_SO_MAC_DINH = 840 

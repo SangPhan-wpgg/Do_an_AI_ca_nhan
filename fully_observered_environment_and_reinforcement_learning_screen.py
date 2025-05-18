@@ -8,7 +8,7 @@ import math
 import heapq
 import os
 
-from dataStructures import NutTimKiem, DanhSachMo, DanhSachDong, tao_nut_tim_kiem, trich_xuat_duong_di
+from Cau_truc import NutTimKiem, DanhSachMo, DanhSachDong, tao_nut_tim_kiem, trich_xuat_duong_di
 from reinforcement_learning import giai_bang_hoc_tang_cuong
 
 

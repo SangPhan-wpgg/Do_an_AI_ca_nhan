@@ -5,7 +5,7 @@ import time
 import random
 from collections import deque
 from copy import deepcopy
-from dataStructures import NutTimKiem, DanhSachMo, DanhSachDong
+from Cau_truc import NutTimKiem, DanhSachMo, DanhSachDong
 import os
 
 CHIEU_RONG_CUA_SO_MAC_DINH = 840 

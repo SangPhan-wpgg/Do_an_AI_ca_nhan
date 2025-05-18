@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow
 from tkinter import messagebox
 import time
 import random
-from dataStructures import *
+from Cau_truc import *
 from search_in_complex_environment import giai_tim_kiem_moi_truong_phuc_tap, CAC_BUOC_DI_CHUYEN_MTK as CAC_HANH_DONG_DI_CHUYEN_MT_PHUC_TAP
 
 import os
