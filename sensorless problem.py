@@ -1,4 +1,5 @@
-from dataStructures import DanhSachMo
+#Khai báo và sử dụng module
+from Cau_truc import DanhSachMo
 import random
 
 def tao_cac_trang_thai_puzzle_duy_nhat_sl(so_luong_trang_thai_sl):   
