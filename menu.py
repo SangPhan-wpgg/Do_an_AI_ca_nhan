@@ -42,26 +42,17 @@ class KhungMoiTruongPhucTap(tk.Frame):
         self["bg"] = "#99FFCC"
         tk.Label(self, text="Chọn Thuật Toán (MT Phức Tạp):", font=("Times New Roman", 15, "bold"), width=30, fg="#008080", bg="#99FFCC").pack(pady=10)
         tk.Button(self, text="Tìm Kiếm Đồ Thị AND/OR", font=("Times New Roman", 13), command=lambda: hien_thi_man_hinh_tim_kiem_do_thi_and_or(), width=45).pack(pady=5)
-        tk.Button(self, text="TK Không/Một Phần Quan Sát", font=("Times New Roman", 13), command=lambda: hien_thi_man_hinh_van_de_khong_cam_bien_phuc_tap(), width=45).pack(pady=5) # Đổi tên hàm gọi cho phù hợp
+        tk.Button(self, text="TK Không/Một Phần Quan Sát", font=("Times New Roman", 13), command=lambda: hien_thi_man_hinh_van_de_khong_cam_bien_phuc_tap(), width=45).pack(pady=5) 
         tk.Button(self, text="Quay lại Menu Chính", font=("Times New Roman", 13), command=lambda: self.master.hien_thi_khung(KhungBatDau), width=45).pack(pady=10)
-
-
 def hien_thi_man_hinh_moi_truong_quan_sat_day_du():
-    subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/fully_observered_environment_screen.py"])
-
+    subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/fully_observered_environment_and_reinforcement_learning_screen.py"])
 def hien_thi_man_hinh_tim_kiem_do_thi_and_or():
-    subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/AND_OR_graph_search_screen.py"])
-
-def hien_thi_man_hinh_van_de_khong_cam_bien(): # Dùng cho nút "Bài Toán Không Cảm Biến" ở KhungBatDau
-    # File này có thể là sensorless_problem_screen.py hoặc complex_environment_screen.py tùy theo bạn cấu trúc
-    # Tạm thời trỏ đến một file chung, bạn cần chỉnh lại cho đúng
-    subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/complex_environment_screen.py"]) # Sửa lại nếu cần
-
-def hien_thi_man_hinh_van_de_khong_cam_bien_phuc_tap(): # Dùng cho nút "TK Không/Một Phần Quan Sát" ở KhungMoiTruongPhucTap
-    subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/complex_environment_screen.py"])
-
+    subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/and_or_search.py"])
+def hien_thi_man_hinh_van_de_khong_cam_bien(): 
+    subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/complex_environment_main.py"]) 
+def hien_thi_man_hinh_van_de_khong_cam_bien_phuc_tap():
+    subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/complex_environment_main.py"])
 def hien_thi_man_hinh_van_de_thoa_man_rang_buoc():
     subprocess.run(["python", DUONG_DAN_THU_MUC_HIEN_HANH + "/constrain_satisfaction_problem_screen.py"])
-
 ung_dung = UngDungChinh()
 ung_dung.mainloop()
