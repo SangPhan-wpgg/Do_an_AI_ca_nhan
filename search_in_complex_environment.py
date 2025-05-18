@@ -1,5 +1,5 @@
 from collections import deque
-from dataStructures import NutTimKiem 
+from Cau_truc import NutTimKiem 
 
 CAC_BUOC_DI_CHUYEN_MTK = {
     'Up': -3,
