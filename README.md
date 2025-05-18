@@ -1,9 +1,13 @@
 # Do_an_AI_ca_nhan
 
 Giảng viên hướng dẫn: TS.Phan Thị Huyền Trang
+
 Sinh viên thực hiện: Phan Đình Sáng
+
 Mã số sinh viên: 23110303
+
 Mã lớp học: ARIN330585_04
+
 Học kỳ II năm học 2024-2025
 
 MỤC LỤC
