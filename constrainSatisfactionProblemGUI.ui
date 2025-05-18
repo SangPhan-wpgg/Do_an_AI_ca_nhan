@@ -884,7 +884,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X1</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_4">
@@ -909,7 +909,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X2</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_5">
@@ -934,7 +934,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X3</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_6">
@@ -959,7 +959,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X4</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_7">
@@ -984,7 +984,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X5</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_8">
@@ -1009,7 +1009,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X6</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_9">
@@ -1034,7 +1034,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X7</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_10">
@@ -1059,7 +1059,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X8</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_11">
@@ -1084,7 +1084,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>MIN</string>
+     <string>GTB</string>
     </property>
    </widget>
    <widget class="QLabel" name="lblEndState_12">
@@ -1109,7 +1109,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>MAX</string>
+     <string>GTL</string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_minX1">
@@ -1590,7 +1590,7 @@ QPushButton#writeToFile:hover {
 </string>
     </property>
     <property name="text">
-     <string>X9</string>
+     <string> </string>
     </property>
    </widget>
    <widget class="QSpinBox" name="spinBox_minX9">
